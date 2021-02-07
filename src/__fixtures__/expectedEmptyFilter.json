@@ -1,0 +1,22 @@
+[
+  {
+    "room":"557*",
+    "roomId":"1",
+    "isLesson1":true,
+    "isLesson2":false,
+    "isLesson3":false,
+    "isLesson4":false,
+    "isLesson5":false,
+    "isLesson6":false
+  },
+  {
+    "room":"218",
+    "roomId":"2",
+    "isLesson1":false,
+    "isLesson2":false,
+    "isLesson3":false,
+    "isLesson4":false,
+    "isLesson5":false,
+    "isLesson6":false
+  }
+]
