@@ -9,12 +9,6 @@ export enum Weekday {
   Sunday = 'Sunday',
 }
 
-export interface StudentGroup {
-  shortName: string;
-  id: string;
-  isScrapped: number;
-}
-
 export enum LessonType {
   Lesson1 = 'Lesson1',
   Lesson2 = 'Lesson2',
@@ -23,15 +17,6 @@ export enum LessonType {
   Lesson5 = 'Lesson5',
   Lesson6 = 'Lesson6',
 }
-
-export const lessonTypeTimeMap = {
-  '9:00': LessonType.Lesson1,
-  '10:50': LessonType.Lesson2,
-  '12:40': LessonType.Lesson3,
-  '14:55': LessonType.Lesson4,
-  '16:45': LessonType.Lesson5,
-  '18:30': LessonType.Lesson6,
-};
 
 export interface Classroom {
   room: string;

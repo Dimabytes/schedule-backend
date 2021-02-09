@@ -21,7 +21,6 @@ app.post('/schedule', async (req, res) => {
     excludedLessonTypes: req.body.excludedLessonTypes as LessonType[],
     isEven: Boolean(req.query.isEven),
   };
-  console.log(filter);
   const filteredData = getClassroomsSchedule(allData, filter);
   res.status(200).json(filteredData);
 });
